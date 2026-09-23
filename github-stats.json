@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-09-23",
+  "repos": {
+    "SkeltonThatcher/run-book-template": {
+      "stars": 746,
+      "pushed_at": "2019-08-21",
+      "archived": false
+    },
+    "SquadcastHub/awesome-sre-tools": {
+      "stars": 1500,
+      "pushed_at": "2026-07-07",
+      "archived": false
+    },
+    "alicegoldfuss/oncall-handbook": {
+      "stars": 400,
+      "pushed_at": "2020-06-13",
+      "archived": false
+    },
+    "danluu/post-mortems": {
+      "stars": 12467,
+      "pushed_at": "2026-08-31",
+      "archived": false
+    },
+    "dastergon/awesome-chaos-engineering": {
+      "stars": 6656,
+      "pushed_at": "2023-12-28",
+      "archived": false
+    },
+    "dastergon/postmortem-templates": {
+      "stars": 1451,
+      "pushed_at": "2023-07-12",
+      "archived": false
+    },
+    "devopsenterprise/2018-London": {
+      "stars": 109,
+      "pushed_at": "2018-06-28",
+      "archived": false
+    },
+    "hjacobs/kubernetes-failure-stories": {
+      "stars": 6227,
+      "pushed_at": "2020-08-23",
+      "archived": true
+    },
+    "ligurio/awesome-ci": {
+      "stars": 4147,
+      "pushed_at": "2026-08-27",
+      "archived": false
+    },
+    "open-guides/og-aws": {
+      "stars": 36469,
+      "pushed_at": "2024-08-16",
+      "archived": false
+    },
+    "preed/incident-lifecycle-model": {
+      "stars": 43,
+      "pushed_at": "2018-10-16",
+      "archived": false
+    },
+    "shibumi/SRE-cheat-sheet": {
+      "stars": 240,
+      "pushed_at": "2022-05-15",
+      "archived": false
+    }
+  }
+}

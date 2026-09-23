@@ -1,0 +1,53 @@
+# Configuration for this awesome list. Everything the engine needs
+# beyond README.md lives here.
+
+name = "Awesome Sre"
+repo_slug = "awesome-sre"
+readme = "README.md"
+badge = "default"
+
+sections = [
+    "Culture",
+    "Education",
+    "Books",
+    "Hiring",
+    "Reliability",
+    "Monitoring & Observability & Alerting",
+    "On-Call",
+    "Post-Mortem",
+    "Capacity Planning",
+    "Service Level Agreement",
+    "Performance",
+    "Programming",
+    "Misc Articles",
+    "Real-time Messaging",
+    "Blogs",
+    "Newsletters",
+    "Conferences & Meetups",
+    "Twitter",
+    "SRE Tools",
+    "Podcasts",
+]
+
+[site]
+# The template has no site generator yet, so this stays off.
+enabled = false
+
+[links]
+archive = "off"
+exclude = []
+
+# URLs the engine should not judge. Every line here is a decision, so say why.
+allowlist = [
+    # Serves plain http only; the TLS handshake fails, and the site answers on http.
+    "http://www.gophersre.com/",
+    # github.com/readme/guides is published content, not a repository, so no stars exist.
+    "https://github.com/readme/guides/ops-work-visible",
+]
+
+[github]
+stats = true
+max_age_days = 14
+
+[tags]
+# This list carries no tag vocabulary, so every entry opts out of tags.
