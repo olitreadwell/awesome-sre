@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A curated list of site reliability and production engineering resources."
 requires-python = ">=3.12"
 dependencies = [
-    "awesome-list @ git+https://github.com/olitreadwell/awesome-list-template@a0ca3ae",
+    "awesome-list @ git+https://github.com/olitreadwell/awesome-list-template@1b5dbd3",
 ]
 
 [dependency-groups]

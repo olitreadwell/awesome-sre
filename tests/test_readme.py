@@ -28,6 +28,7 @@ def test_no_rule_errors() -> None:
         file=config.readme,
         entry_sections=config.sections,
         allowed_urls=config.links.allowlist,
+        nested_details_allowed=config.structure.nested_details,
     )
     errors = [violation.render() for violation in violations if violation.severity == "error"]
 
@@ -50,6 +51,7 @@ def test_entry_descriptions_that_still_need_a_human() -> None:
         file=config.readme,
         entry_sections=config.sections,
         allowed_urls=config.links.allowlist,
+        nested_details_allowed=config.structure.nested_details,
     )
     missing = [
         violation.message
